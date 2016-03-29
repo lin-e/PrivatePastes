@@ -20,6 +20,7 @@ By reading this project's source code, compiling as a binary, redistributing ass
 - [MaterializeCSS] (http://materializecss.com/) Used this theme for a clean, simple and flat design
 - [jacoborus] (https://github.com/jacoborus) Used his 'nanobar' for the loader
 - [PrivNote] (https://privnote.com/) Got the idea for this from their site
+- [FontAwesome] (https://fortawesome.github.io/Font-Awesome/icons/) The favicon uses their 'pencil-square' icon
 
 # Usage
 ## On a VPS
