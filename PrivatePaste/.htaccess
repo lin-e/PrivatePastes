@@ -1,0 +1,4 @@
+## Application Handler
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)?$ view.php?hash=$1	[QSA,NC,L]
