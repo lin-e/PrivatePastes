@@ -30,3 +30,31 @@ Simply edit 'config.php' to work with your MySQL installation and then run 'inst
 ## On cPanel
 
 Create a database and user (with all permissions) to be used for this project. Put in the username, password and database name into 'config.php', along with the host. Edit 'install.php' by replacing the part where it creates the database with 'true', and then run the script like normal. And then delete it.
+
+## Manual
+```SQL
+CREATE DATABASE <your database name>
+```
+Create database
+```SQL
+CREATE TABLE IF NOT EXISTS `<your table name>` (
+  `prime_key` int(11) NOT NULL AUTO_INCREMENT,
+  `content` text NOT NULL, `access_key` text NOT NULL,
+  `create_ip` text NOT NULL,
+  `create_time` text NOT NULL,
+  `melt` int(11) NOT NULL,
+  PRIMARY KEY (`prime_key`)
+)
+```
+Create table
+```SQL
+CREATE TABLE IF NOT EXISTS `<your table name>` (
+  `prime_key` int(11) NOT NULL AUTO_INCREMENT,
+  `content` text NOT NULL, `access_key` text NOT NULL,
+  `create_ip` text NOT NULL,
+  `create_time` text NOT NULL,
+  `melt` int(11) NOT NULL,
+  PRIMARY KEY (`prime_key`)
+)
+```
+Of course, all the variables have to be filled in, in the config, but if you're doing manual installation; you know that.
