@@ -1,9 +1,9 @@
 # PrivatePastes
 Simple, clean self destructing note site!
 
-By reading this project's source code, compiling as a binary, redistributing assets found in this repository, etc, or ANY form of use, you must agree to the license enlisted below.
-
 ### [Demo] (http://suicide.pw/paste/)
+
+By reading this project's source code, compiling as a binary, redistributing assets found in this repository, etc, or ANY form of use, you must agree to the license enlisted below.
 
 # Features
 - [x] Self destructing pastes
